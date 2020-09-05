@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TO-DO-LIST.exe" version="1.0.0.0" publicKeyToken="8975ab5445759efb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TO-DO-LIST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TO-DO-LIST.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo dell'account utente
+          Se si vuole modificare il livello di Controllo dell'account utente di Windows, sostituire il
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TO-DO-LIST.exe" size="18408">
+      <assemblyIdentity name="TO-DO-LIST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>t3XZZQp+/XTM6A6EPuipReSa7vAwn7Bip2deZ646WJY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TO-DO-LIST.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-E82U5F2\meshmi" issuerKeyHash="9d62c966a3b8a7d4c61635da018f6cde14710b47" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FhZ1pwUc57va66VPMMCwBhum2xaZvabR6/cN7CQFzLk=</DigestValue></Reference></SignedInfo><SignatureValue>kt1mA+R91SSEHx6bO2joVFhzNJ0Ru6Nv0ASOu81JurC4PQ7xyyQPgobtmoFGwDJ1RXbcd+pQPgp/WRSQz9MT401Z9X0XXFR4fagyMmncySTSFz4k9LK44A7B2Wj6rcFqNpK4Z0lUruxGOglt2N53bOkInM9C76z5KPYWOQCK4Y0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pmfc3aHS+5R1xao0D1ZVHrFFoFFprQyrW9aGq+z4gyuRPXFE5pilCEMG6jB0yDujVQGwa8EoJEk1wgKvPxFDVoRHNsFFA7TZsvWaMcbucaJMlf5GIOWehy0UDsW0c9zGBveKNc4sdbFCcSzXiCjurvlJFcfJJW7rzBkbfnewcf0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b9cc0524ec0df7ebd1a6bd9916dba61b06b0c0304fa5ebdabbe71c05a7751616" Description="" Url=""><as:assemblyIdentity name="TO-DO-LIST.exe" version="1.0.0.0" publicKeyToken="8975ab5445759efb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-E82U5F2\meshmi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kXNIwHTYPI1+APzywRs4/z0z6exBXWXioNoZ997pVjQ=</DigestValue></Reference></SignedInfo><SignatureValue>NeeeYI78a2NlRr9UiTnpE5RlSvmR8F456WHqh3VYexAIDdEGo8k6Af0nDCmivJ56pXCe/5BuXxmiEPE03T/PsOANAKL6yGrZsw6OF54lO9tLaa3974pNaBecMoXpj3Z8eWgEu90xVYIuRycI/jAqDY0hzbEX281VDXJ+WxIJ4F0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pmfc3aHS+5R1xao0D1ZVHrFFoFFprQyrW9aGq+z4gyuRPXFE5pilCEMG6jB0yDujVQGwa8EoJEk1wgKvPxFDVoRHNsFFA7TZsvWaMcbucaJMlf5GIOWehy0UDsW0c9zGBveKNc4sdbFCcSzXiCjurvlJFcfJJW7rzBkbfnewcf0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQHHEa77IriIRKzJE05IozwzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEUAOAAyAFUANQBGADIAXABtAGUAcwBoAG0AaTAeFw0yMDA3MjAwODUyMjlaFw0yMTA3MjAxNDUyMjlaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ARQA4ADIAVQA1AEYAMgBcAG0AZQBzAGgAbQBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmZ9zdodL7lHXFqjQPVlUesUWgUWmtDKtb1oar7PiDK5E9cUTmmKUIQwbqMHTIO6NVAbBrwSgkSTXCAq8/EUNWhEc2wUUDtNmy9Zoxxu5xokyV/kYg5Z6HLRQOxbRz3MYG94o1zix1sUJxLNeIKO6u+UkVx8klbuvMGRt+d7Bx/QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEpckWAKrQ8ndHJwISlKsMF5SWjo7VWiCKkvkNS9USgaL3/JDxP3IrnFNj7xRWEQli9VNRPGB/CgnEVCilft8KUXKq/y3g4GruEADc4pUloXw5xnCu3IwFmB5Z2zpOGIYbMU3c8J1l+jTDhvNlgH6QR8ITRARsb8EoCRTt15dvyY</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

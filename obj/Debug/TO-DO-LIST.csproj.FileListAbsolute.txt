@@ -1,0 +1,14 @@
+C:\Users\meshmi\source\repos\TO-DO-LIST\bin\Debug\TO-DO-LIST.exe.config
+C:\Users\meshmi\source\repos\TO-DO-LIST\bin\Debug\TO-DO-LIST.exe
+C:\Users\meshmi\source\repos\TO-DO-LIST\bin\Debug\TO-DO-LIST.pdb
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO-DO-LIST.csprojAssemblyReference.cache
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO_DO_LIST.Form1.resources
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO_DO_LIST.Properties.Resources.resources
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO-DO-LIST.csproj.GenerateResource.cache
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO-DO-LIST.csproj.CoreCompileInputs.cache
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO-DO-LIST.exe
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO-DO-LIST.pdb
+C:\Users\meshmi\source\repos\TO-DO-LIST\bin\Debug\TO-DO-LIST.exe.manifest
+C:\Users\meshmi\source\repos\TO-DO-LIST\bin\Debug\TO-DO-LIST.application
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO-DO-LIST.exe.manifest
+C:\Users\meshmi\source\repos\TO-DO-LIST\obj\Debug\TO-DO-LIST.application
